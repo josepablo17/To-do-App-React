@@ -1,16 +1,25 @@
-# React + Vite
+Aplicación web desarrollada con React que permite gestionar tareas diarias de forma sencilla e intuitiva.
+El usuario puede agregar, editar, eliminar y marcar tareas como completadas, además de filtrarlas según su estado.
+🚀 Funcionalidades
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Agregar nuevas tareas
+Editar tareas existentes
+Eliminar tareas
+Marcar tareas como completadas o pendientes
+Filtrar tareas (todas, completadas, pendientes)
+Contador dinámico de tareas
+Total
+Completadas
+Pendientes
 
-Currently, two official plugins are available:
+Persistencia de datos usando localStorage
+Validaciones para evitar campos vacíos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧠 Tecnologías utilizadas
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React (Hooks)
+useState
+useEffect
+JavaScript (ES6+)
+CSS
+LocalStorage
